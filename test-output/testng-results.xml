@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="8700" started-at="2020-09-19T08:48:51Z" finished-at="2020-09-19T08:49:00Z">
+    <groups>
+    </groups>
+    <test name="Test 1" duration-ms="2849" started-at="2020-09-19T08:48:51Z" finished-at="2020-09-19T08:48:54Z">
+      <class name="Commands.Crossbrowser">
+        <test-method status="PASS" signature="verifytitle(java.lang.String)[pri:0, instance:Commands.Crossbrowser@754ba872]" name="verifytitle" is-config="true" duration-ms="2560" started-at="2020-09-19T08:48:51Z" finished-at="2020-09-19T08:48:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[IE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifytitle -->
+        <test-method status="PASS" signature="launchwebsite()[pri:0, instance:Commands.Crossbrowser@754ba872]" name="launchwebsite" duration-ms="221" started-at="2020-09-19T08:48:54Z" finished-at="2020-09-19T08:48:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchwebsite -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Commands.Crossbrowser@754ba872]" name="close" is-config="true" duration-ms="38" started-at="2020-09-19T08:48:54Z" finished-at="2020-09-19T08:48:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- Commands.Crossbrowser -->
+    </test> <!-- Test 1 -->
+    <test name="Test" duration-ms="8700" started-at="2020-09-19T08:48:51Z" finished-at="2020-09-19T08:49:00Z">
+      <class name="Commands.Crossbrowser">
+        <test-method status="PASS" signature="verifytitle(java.lang.String)[pri:0, instance:Commands.Crossbrowser@5e5792a0]" name="verifytitle" is-config="true" duration-ms="3151" started-at="2020-09-19T08:48:51Z" finished-at="2020-09-19T08:48:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifytitle -->
+        <test-method status="PASS" signature="launchwebsite()[pri:0, instance:Commands.Crossbrowser@5e5792a0]" name="launchwebsite" duration-ms="5377" started-at="2020-09-19T08:48:54Z" finished-at="2020-09-19T08:49:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchwebsite -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Commands.Crossbrowser@5e5792a0]" name="close" is-config="true" duration-ms="151" started-at="2020-09-19T08:49:00Z" finished-at="2020-09-19T08:49:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- Commands.Crossbrowser -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
